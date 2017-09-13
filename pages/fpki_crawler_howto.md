@@ -4,7 +4,11 @@ title: How To Use the FPKI Crawler
 permalink: /fpkicrawler/
 ---
 
-You may need to delve deeply into Certification Authority relationships in the FPKI, which are complex! You might also want to analyze certificates or download them. The FPKI Crawler can help you.
+When you delve deeply into Certification Authority relationships in the FPKI, it's clear that they are complex! 
+
+You might need to understand their relationships more fully, analyze certificates, or download them. How can you see these relationships? Where do you get these certificates? Which ones you need? 
+
+The FPKI Crawler can help you sort it all out.
  
 * [FPKI Graph](#fpki-graph)
 * [FPKI Crawler Outputs](#fpki-crawler-outputs)
