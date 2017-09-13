@@ -17,7 +17,7 @@ The FPKI Crawler can help you sort it all out.
 
 ## FPKI Graph
 
-The FPKI Crawler provides an [FPKI Graph](https://fpki-graph.fpki-lab.gov/){:target="_blank"} _to help you see the relationships between the CAs and Bridges in the FPKI ecosystem and the cross-certified CAs. You can also see how each CA certificate validates to the Root, COMMON.
+The FPKI Crawler provides an [FPKI Graph](https://fpki-graph.fpki-lab.gov/){:target="_blank"_} to help you see the relationships between the CAs and Bridges in the FPKI ecosystem and the cross-certified CAs. You can also see how each CA certificate validates to the Root, COMMON.
 
 * Click on any dot in the FPKI Graph to see that CA's inbound and outbound relationships. 
 
@@ -29,7 +29,7 @@ The [FPKI Crawler](https://fpki-graph.fpki-lab.gov/crawler/){:target="_blank"}_ 
 
 ### Public Certificates for Analysis and Reporting
 
-> **Note:**&nbsp;&nbsp;The Crawler categorizes CA certificates by _Type_ (_U.S. Government_, _State_, or _Company_) and _Organization_ (_Agency_, _State Name_, and _Company Name_), which is extracted from the Distinguished Name (DN).
+>**Note:**&nbsp;&nbsp;The Crawler categorizes CA certificates by _Type_ (_U.S. Government_, _State_, or _Company_) and _Organization_ (_Agency_, _State Name_, and _Company Name_), which is extracted from the Distinguished Name (DN).
 
 #### 1. Federal Common Policy Tree File (_FederalCommonPolicyTree.csv_)
 
