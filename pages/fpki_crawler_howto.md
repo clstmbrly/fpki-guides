@@ -4,14 +4,8 @@ title: How To Use the FPKI Crawler
 permalink: /fpkicrawler/
 ---
 
-You may need to delve deeply into Certification Authorities' relationships in the FPKI, but they are complex! You might also want to analyze certificates or download them. To help you, the FPKI Crawler offers useful tools to:
-
-* Visualize CA relationships, including cross-certified CAs
-* See how CAs validate to the Federal Common Policy CA (COMMON)
-* Analyze certificate data
-* Download certificates
-
-### 
+You may need to delve deeply into Certification Authority relationships in the FPKI, which are complex! You might also want to analyze certificates or download them. The FPKI Crawler can help you.
+ 
 * [FPKI Graph](#fpki-graph)
 * [FPKI Crawler Outputs](#fpki-crawler-outputs)
   * [Public Certificates for Reporting and Analysis](#public-certificates-for-reporting-and-analysis)
@@ -93,9 +87,9 @@ The files, _CACertificatesValidatingToCommonPolicy_1.p7b_ through _CACertificate
 
 #### 3. Certificate Files Grouped by Type and Organization (Additional _.p7b_ Certificates)
 
-For these .p7b files, the CA certificates are grouped by _Type_ (_U.S. Government_, _State_, or _Company_) and _Organization_ (_Agency_, _State Name_, and _Company Name_). For every _Type_ and _Organization_, there are two files: 
+For these .p7b files, the CA certificates are grouped by _Type_ and _Organization_ into two files: 
 
 * All CA certificates found
-* All CA certificates found, plus all other certificates required for path validation to COMMON.
+* All CA certificates found, plus any other certificate needed to validate to COMMON.
 
-> For example:&nbsp;&nbsp;The U.S. Department of Veterans Affairs' CA (issued by the Verizon Federal Shared Service Provider [SSP] CA) has two CA certificates in the _US_Government_VA.p7b_ file. In order to validate these two paths to COMMON, a Betrusted cross-certificate is required. Therefore, the _US_Government_VA_FullPath.p7b_ file contains both the CA certificates and the Betrusted cross-certificate.
+> For example:&nbsp;&nbsp;the _US_Government_VA.p7b_ (U.S. Department of Veterans Affairs) contains two CA certificates issued by the Verizon Federal Shared Service Provider CA. To validate their paths to COMMON requires a Betrusted cross-certificate, so the _US_Government_VA_FullPath.p7b_ contains the two CA certificates, plus the Betrusted cross-certificate.
