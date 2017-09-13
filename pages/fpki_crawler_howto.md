@@ -23,7 +23,7 @@ The FPKI Crawler provides an [FPKI Graph](https://fpki-graph.fpki-lab.gov/){:tar
 
 ## FPKI Crawler Output Files
 
-The [FPKI Crawler](https://fpki-graph.fpki-lab.gov/crawler/){:target="_blank"}_ (_AIA Crawler Results_ webpage) offers output files in CSV, HTML, XML, and .p7b formats to help you understand and administer your certificate Key Store and build a Trust Store. 
+The [FPKI Crawler](https://fpki-graph.fpki-lab.gov/crawler/){:target="_blank"} (_AIA Crawler Results_ webpage) offers output files in CSV, HTML, XML, and .p7b formats to help you understand and administer your certificate Key Store and build a Trust Store. 
 
 {% include alert-info.html heading="The FPKI Crawler uses AIAs and SIAs to find all CA certificates." content="Each CA public certificate should contain Authority Information Access (AIA) and Subject Information Access (SIA) extensions. An AIA chain will lead to the COMMON-certified CA certificate for download. The SIA gives a URL to a list of all certificates issued by a CA." %} 
 
